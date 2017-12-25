@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/btn_login"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/main3_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:paddingLeft="15dp"
+            android:onClick="onClick_Vate_back"
+            android:src="@mipmap/btn_back" />
+
+        <TextView
+            style="@style/top_memu_text"
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="投票系统" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/vatecontent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="104dp"
+        android:text="sdnu问卷调查"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+
+    <com.allen.comparsechart.CompareIndicator
+        android:id="@+id/compareIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/vatecontent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="69dp"
+        app:approve_line_color="@android:color/holo_green_light"
+        app:approve_res="@mipmap/blank"
+        app:oppose_line_color="@android:color/holo_red_dark"
+        app:opposite_res="@mipmap/blank" />
+
+    <Button
+        android:id="@+id/btn_appr"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="9dp"
+        android:onClick="onClick_appr"
+        android:background="@mipmap/approve"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/compareIndicator"
+        android:layout_marginTop="-1dp"
+        android:text="" />
+
+    <Button
+        android:onClick="onClick_oppo"
+        android:id="@+id/btn_oppo"
+        android:layout_width="43dp"
+        android:layout_marginRight="9dp"
+        android:background="@mipmap/opposite"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/compareIndicator"
+        android:layout_marginTop="-1dp"
+        android:text="" />
+
+
+</RelativeLayout>

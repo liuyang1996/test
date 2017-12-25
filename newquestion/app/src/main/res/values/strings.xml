@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">大江东去</string>
+    <string name="account_study">学&#160;习&#160;评&#160;分：</string>
+    <string name="account_health">健 康 评 分：</string>
+    <string name="username">用户名</string>
+    <string name="name">用户名</string>
+    <string name="login">登&#160;录</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorWhite"
+android:orientation="vertical"
+tools:context="com.liuyang.android.newquestion.MainActivity">
+
+    <RelativeLayout
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/blue"
+            android:onClick="onClick_head"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:src="@mipmap/head" />
+    </RelativeLayout>
+
+
+
+
+<LinearLayout
+    android:layout_marginTop="100dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout1">
+
+
+    <ImageButton
+        android:id="@+id/test1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/study"
+        android:onClick="onClick_test1"
+        android:background="@color/white"
+         />
+    <View
+        android:layout_width="30dp"
+        android:layout_height="80dp"/>
+
+    <ImageButton
+        android:id="@+id/test2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/test1"
+        android:onClick="onClick_test2"
+        android:src="@mipmap/health"
+        android:background="@color/white"
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/linearLayout1"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2">
+
+
+        <ImageButton
+            android:id="@+id/test3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClick_test3"
+            android:src="@mipmap/more"
+            android:background="@color/white"
+            />
+        <View
+            android:layout_width="30dp"
+            android:layout_height="80dp"/>
+
+        <ImageButton
+            android:id="@+id/test4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/test1"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_select_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:text="相册"
+
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/tv_select_camera"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorblack"
+        android:text="照相"
+        />
+
+</LinearLayout>

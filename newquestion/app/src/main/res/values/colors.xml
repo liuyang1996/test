@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="white2">#f5f3f3</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorLightGrey">#eeeeee</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="m_charcoal_grey">#323233</color><!--深灰色-->
+    <color name="m_steel">#7d7d80</color><!--灰色-->
+    <color name="m_silver">#c8c8cc</color><!--浅灰色-->
+    <color name="m_pale_grey">#f2f2f7</color><!--淡灰色-->
+    <color name="m_warm_grey">#777777</color>
+    <color name="m_item_text">#535353</color>
+    <color name="grey">#7d7d80</color>
+    <color name="gray">#c8c8cc</color>
+    <color name="resultcolor">#504c4c</color>
+    <color name="blue">#1faced</color>
+    <color name="blue1">#8ddae2</color>
+    <color name="blue2">#30aee9</color>
+    <color name="background">#e8e8e8</color><!--背景色-->
+
+
+
+    <color name="login_divider">#21ad7e</color>
+    <color name="btn_login">#43c564</color>
+    <color name="white">#ffffff</color>
+    <color name="buttonnotselect">#b3b3b3</color>
+    <color name="orange">#ff7f22</color>
+
+</resources>
